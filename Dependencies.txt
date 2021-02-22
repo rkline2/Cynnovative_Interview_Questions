@@ -1,0 +1,6 @@
+Use Ubuntu
+
+install:
+
+python
+apt-get install python-bs4
