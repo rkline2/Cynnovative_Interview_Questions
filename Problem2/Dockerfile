@@ -1,6 +1,6 @@
-FROM ubuntu:latest
+FROM ubuntu
 
-RUN apt-get update -y
+RUN apt-get update
 RUN apt-get install python
 RUN pip install bs4
 
