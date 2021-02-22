@@ -1,9 +1,7 @@
-FROM ubuntu
+FROM python:latest
 
-RUN apt-get update
-RUN apt-get install python
+ADD Problem2.py .
+
 RUN pip install bs4
 
-COPY Problem2.py /opt/source-code
-
-
+CMD ["python", "./Problem2.py"]
