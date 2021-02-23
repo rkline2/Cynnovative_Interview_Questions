@@ -9,3 +9,13 @@
   - URL: https://armettasrestaurant.com/armettas-menu<br>
   - Must answer this question: If I ordered one of every appetizer and dessert from
   Armetta’s, what would my total be?
+
+## Problem 3:
+- Build a functional Docker image that processes haveibeenpowned.com
+(https://haveibeenpwned.com/api/v2/) and answers the following questions:
+  - Must answer this question: What is the total number of unique accounts breached
+  (“PwnCount”) according to their data?
+  - Bonus: Which data breaches have been fabricated?
+  - You can use
+  https://www.troyhunt.com/introducing-fabricated-data-breaches-to-have-i-been-pwned/
+  for help
